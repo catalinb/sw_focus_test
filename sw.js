@@ -50,7 +50,7 @@ self.addEventListener('notificationclick', function(event) {
   // See http://crbug.com/463146
   event.notification.close();
   //var url = 'https://youtu.be/gYMkEMCHtJ4';
-  var url = "http://localhost/";
+  var url = "https://catalinb.github.io/sw_focus_test/"
   // Check if there's already a tab open with this URL.
   // If yes: focus on the tab.
   // If no: open a tab with the URL.
